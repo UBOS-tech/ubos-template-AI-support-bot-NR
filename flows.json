@@ -1,0 +1,2013 @@
+[
+    {
+        "id": "62b22d6c64160367",
+        "type": "tab",
+        "label": "Logic",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "244f57418099357e",
+        "type": "tab",
+        "label": "Settings",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "9e67e3c2dd241798",
+        "type": "subflow",
+        "name": "initial",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 160,
+                "y": 80,
+                "wires": [
+                    {
+                        "id": "665c7a6e3f582625"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 340,
+                "y": 80,
+                "wires": [
+                    {
+                        "id": "665c7a6e3f582625",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {},
+        "color": "#C0DEED",
+        "icon": "node-red/leveldb.png"
+    },
+    {
+        "id": "799b2714689c52e7",
+        "type": "group",
+        "z": "244f57418099357e",
+        "name": "Global",
+        "style": {
+            "stroke": "#92d04f",
+            "label": true
+        },
+        "nodes": [
+            "77180feaff4d5130",
+            "8d63d1f942513785",
+            "e40e28f78177c084",
+            "152abbb1a32b6e9a",
+            "a71380698545bfba",
+            "cccf876a7687d60e",
+            "71ccf33bbbf63800",
+            "20587a1a488be3fa",
+            "7d074ce8d581dc21",
+            "cfca5f7ee9f39ce2",
+            "60d9ccd74b3d5f01",
+            "0861f8ee76b43a91"
+        ],
+        "x": 34,
+        "y": 19,
+        "w": 692,
+        "h": 202
+    },
+    {
+        "id": "17965c4b9f2a83c3",
+        "type": "group",
+        "z": "244f57418099357e",
+        "name": "FromAdmin",
+        "style": {
+            "stroke": "#0070c0",
+            "label": true
+        },
+        "nodes": [
+            "876ca2a327bbf742",
+            "4fbea48f5fcac951",
+            "1597a5bfc8b290dd",
+            "cab0a4cf864ec59a",
+            "682fd7e93e8fc114",
+            "d3eed86c91985361",
+            "09a0b63bfe2f9446",
+            "e1e8004ec44efff9",
+            "6b282a5cf59047e7",
+            "10eac66d955f5767",
+            "1105a126875d3f23",
+            "7b7a917b5834de34",
+            "2ae4172c5dd7168e",
+            "50d817cb7369edd3",
+            "305cfab9683c882d",
+            "1659225c58a2b8ab",
+            "f40ecfa286fb73f8",
+            "ff109eead4511781",
+            "df2a1ab13eaea41e",
+            "753af792a60ccefd",
+            "a4e2566ba24aa781",
+            "275457d43ea42730",
+            "4f37e869cdf617e0",
+            "39029260de6af61e",
+            "c9ef96841114bd54",
+            "1935934b4e85e6d0",
+            "e8932bcdc24b40b4",
+            "e849e62835a29646"
+        ],
+        "x": 34,
+        "y": 239,
+        "w": 1012,
+        "h": 362
+    },
+    {
+        "id": "8a7cfdf064b038c2",
+        "type": "group",
+        "z": "244f57418099357e",
+        "name": "Demo",
+        "style": {
+            "stroke": "#ffC000",
+            "label": true
+        },
+        "nodes": [
+            "71c998ce734f0f5a",
+            "c09c22fe123e75df",
+            "da1f9c67b7e5ebad",
+            "69dde419548f29fd",
+            "9b6f914c73aa4ccd",
+            "3cba732b968ed1c9",
+            "76f1ed83e535349c",
+            "3f7430100fa126f5",
+            "70747554f572630f"
+        ],
+        "x": 34,
+        "y": 619,
+        "w": 1232,
+        "h": 162
+    },
+    {
+        "id": "b7ace14a05e65449",
+        "type": "group",
+        "z": "62b22d6c64160367",
+        "name": "Telegram",
+        "style": {
+            "label": true,
+            "stroke": "#6f2fa0"
+        },
+        "nodes": [
+            "34ab4bdd71e0c9bc",
+            "458ada8f093a1901",
+            "9dd4fbbcd12b7956",
+            "ea4dc4d104588201",
+            "cd9602935f9e7bd2",
+            "bb5af0d18777b15e",
+            "046c4a967aada20e",
+            "7a33aef5ade37e4c",
+            "9dd4fbbcd12b7956",
+            "046c4a967aada20e",
+            "d78cd8f02d87047b",
+            "254b786952413442",
+            "01305e480cd5de32",
+            "a1bf661ab9e10931",
+            "73bb646e3c360d1e"
+        ],
+        "x": 34,
+        "y": 339,
+        "w": 1392,
+        "h": 202
+    },
+    {
+        "id": "0c99ebd1de06e6e6",
+        "type": "group",
+        "z": "62b22d6c64160367",
+        "name": "Vectors",
+        "style": {
+            "stroke": "#001f60",
+            "label": true
+        },
+        "nodes": [
+            "5030aaac8f677cc9",
+            "9d1731fd31456647",
+            "dae2ef495246e18f",
+            "17ef4b486ceefb20",
+            "99ada44ca5f67dbd",
+            "222d1ccdb7d750e5",
+            "0347190cd7eaf49e",
+            "baba7c3ff96ad1ac",
+            "671e6abe5da7d3c5",
+            "db25b033348eba5b",
+            "50d4b22eea87c187",
+            "f95ef6e5ddd369d3",
+            "65e4dd51728104ee",
+            "f01b195ed85e7a14",
+            "263d5f2914e76918",
+            "876c0ea44c43c322",
+            "fecfd3820b28a1d3"
+        ],
+        "x": 34,
+        "y": 39,
+        "w": 672,
+        "h": 262
+    },
+    {
+        "id": "358625d2fca13e88",
+        "type": "group",
+        "z": "62b22d6c64160367",
+        "name": "History of conversation",
+        "style": {
+            "label": true,
+            "stroke": "#ff0000"
+        },
+        "nodes": [
+            "4da3d1084865862f",
+            "d6395fb4748d1ebc",
+            "eaff589e72bcdafc",
+            "3003b7b6b8c27e44",
+            "2aecefea8e7b8ef1",
+            "6e2ed4604324edd6",
+            "e6590abc5860c593"
+        ],
+        "x": 774,
+        "y": 39,
+        "w": 732,
+        "h": 142
+    },
+    {
+        "id": "664f1e7115a34974",
+        "type": "telegram bot",
+        "botname": "{global.get('process_env').BOT_NAME}",
+        "usernames": "",
+        "chatids": "",
+        "baseapiurl": "",
+        "updatemode": "polling",
+        "pollinterval": "300",
+        "usesocks": false,
+        "sockshost": "",
+        "socksprotocol": "socks5",
+        "socksport": "6667",
+        "socksusername": "anonymous",
+        "sockspassword": "",
+        "bothost": "",
+        "botpath": "",
+        "localbotport": "8443",
+        "publicbotport": "8443",
+        "privatekey": "",
+        "certificate": "",
+        "useselfsignedcertificate": false,
+        "sslterminated": false,
+        "verboselogging": false
+    },
+    {
+        "id": "665c7a6e3f582625",
+        "type": "function",
+        "z": "9e67e3c2dd241798",
+        "name": "initial",
+        "func": "msg.fromApp = msg.payload\nmsg.fromTG = msg.payload\n\nconst { Configuration, OpenAIApi } = openai;\nconst { PineconeClient } = pineconeBD;\nconst { CreateIndexRequest } = pineconeDBPFetch;\n\nconst process_env = global.get(\"process_env\")\nconst OPENAI_API_KEY = process_env.OPENAI_API\nconst PINECONE_API_KEY = process_env.PIPECONE_API\nconst PINECONE_ENVIRONMENT = process_env.PIPECONE_ENV\nconst PIPECONE_INDEX = process_env.PIPECONE_INDEX\n\nglobal.set(\"TABLE_NAME\", \"gpttest\");\nglobal.set(\"tasks_storage\", []);\nglobal.set(\"results_storage\", []);\nglobal.set(\"taskId\", 0);\n\n// ============================\n\nconst configuration = new Configuration({\n    apiKey: OPENAI_API_KEY,\n});\nconst openAI = new OpenAIApi(configuration);\n\nconst pinecone = new PineconeClient();\nawait pinecone.init({\n    apiKey: PINECONE_API_KEY,\n    environment: PINECONE_ENVIRONMENT,\n});\n\nconst indexList = await pinecone.listIndexes();\nlet index = pinecone.Index(PIPECONE_INDEX);\n\nlet embeddingList = new Map();\nglobal.set(\"embeddingList\", embeddingList);\n\nmsg.main = { indexList, openAI, pinecone, index };\n\nasync function getADAEmbedding(text) {\n\n    const embeddingList = global.get(\"embeddingList\");\n\n    if (embeddingList.has(text)) {\n        return embeddingList.get(text);\n    }\n\n    const embedding = (\n        await openAI.createEmbedding({\n            input: [text],\n            model: \"text-embedding-ada-002\",\n        })\n    ).data?.data[0].embedding;\n\n    embeddingList.set(text, embedding);\n\n    return embedding;\n}\n\nglobal.set(\"helpers\", {\n    getADAEmbedding\n});\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "openai",
+                "module": "openai"
+            },
+            {
+                "var": "pineconeBD",
+                "module": "@pinecone-database/pinecone"
+            },
+            {
+                "var": "pineconeDBPFetch",
+                "module": "@pinecone-database/pinecone/dist/pinecone-generated-ts-fetch"
+            }
+        ],
+        "x": 250,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "34ab4bdd71e0c9bc",
+        "type": "telegram receiver",
+        "z": "62b22d6c64160367",
+        "g": "b7ace14a05e65449",
+        "name": "",
+        "bot": "664f1e7115a34974",
+        "saveDataDir": "",
+        "filterCommands": false,
+        "x": 150,
+        "y": 420,
+        "wires": [
+            [
+                "458ada8f093a1901",
+                "254b786952413442"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "458ada8f093a1901",
+        "type": "function",
+        "z": "62b22d6c64160367",
+        "g": "b7ace14a05e65449",
+        "name": "check command",
+        "func": "msg.fromTG = msg.payload\n\n// перша перевірка на тип повідомлення: приватне чи із групи\nif (msg.originalMessage.chat.type === \"private\"){\n    return msg.payload.content === '/start' ? [msg, null] : [null, msg]\n}else{\n    // друга перевірка на вміст повідомлення в групі: бот має реагувати лише коли його тегають і на команду /start\n    return (msg.payload.type === 'message' &&\n        (msg.payload.content.includes(`@${global.get('process_env').BOT_NAME}`) || msg.payload.content === '/start')) ?\n        ((msg.payload.content === '/start') ? [msg, null] : [null, msg]) :\n        [null, null];\n}",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 420,
+        "wires": [
+            [
+                "ea4dc4d104588201"
+            ],
+            [
+                "73bb646e3c360d1e"
+            ]
+        ]
+    },
+    {
+        "id": "9dd4fbbcd12b7956",
+        "type": "telegram sender",
+        "z": "62b22d6c64160367",
+        "g": "b7ace14a05e65449",
+        "name": "",
+        "bot": "664f1e7115a34974",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 690,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ea4dc4d104588201",
+        "type": "function",
+        "z": "62b22d6c64160367",
+        "g": "b7ace14a05e65449",
+        "name": "/start",
+        "func": "msg.payload.content = global.get('content').WELCOME_MSG\n\nglobal.set(`history${msg.fromTG.chatId}`, [{ role: 'system', content: `${global.get('content').INSTRUCTIONS}` }, { role: 'assistant', content: `${global.get('content').WELCOME_MSG}`}])\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 380,
+        "wires": [
+            [
+                "9dd4fbbcd12b7956"
+            ]
+        ]
+    },
+    {
+        "id": "cd9602935f9e7bd2",
+        "type": "function",
+        "z": "62b22d6c64160367",
+        "g": "b7ace14a05e65449",
+        "name": "to ChatGPT",
+        "func": "//set variables\nconst api_key = global.get('process_env').OPENAI_API;\nconst content = msg.fromTG.content.includes(`@${global.get('process_env').BOT_NAME}`) ? msg.fromTG.content.replace(`@${global.get('process_env').BOT_NAME}`, '') : msg.fromTG.content;\nlet history = global.get(`history${msg.fromTG.chatId}`) || [];\n\n//ChatGPT properties\nmsg.url = 'https://api.openai.com/v1/chat/completions';\nmsg.headers = {\n    'Content-Type': 'application/json',\n    'Authorization': `Bearer ${api_key}`\n};\n\nmsg.payload = {\n    \"model\": \"gpt-3.5-turbo\",\n    \"temperature\": 0.5,\n    \"messages\": [\n        { \"role\": \"system\", \"content\": `You are clever and cute support bot in IT company UBOS. Please, give answer to the user question as support bot based on the next information: ${msg.payload[0].answer}`},\n        { \"role\": \"user\", \"content\": content}\n    ]\n}\n\n// update global variables\nhistory.push({ \"role\": \"user\", \"content\": content });\nglobal.set(`history${msg.fromTG.chatId}`, history);\nglobal.set('sent', false)\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 460,
+        "wires": [
+            [
+                "bb5af0d18777b15e",
+                "d78cd8f02d87047b"
+            ]
+        ]
+    },
+    {
+        "id": "bb5af0d18777b15e",
+        "type": "http request",
+        "z": "62b22d6c64160367",
+        "g": "b7ace14a05e65449",
+        "name": "ChatGPT",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 900,
+        "y": 460,
+        "wires": [
+            [
+                "7a33aef5ade37e4c",
+                "01305e480cd5de32"
+            ]
+        ]
+    },
+    {
+        "id": "046c4a967aada20e",
+        "type": "telegram sender",
+        "z": "62b22d6c64160367",
+        "g": "b7ace14a05e65449",
+        "name": "",
+        "bot": "664f1e7115a34974",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 1310,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7a33aef5ade37e4c",
+        "type": "function",
+        "z": "62b22d6c64160367",
+        "g": "b7ace14a05e65449",
+        "name": "send to user from chat",
+        "func": "const responseChatGPT = msg.statusCode < 400 ? msg.payload.choices[0].message.content : `statusCode: ${msg.statusCode} \\npayload: ${typeof msg.payload === 'string' ? msg.payload : msg.payload?.error.message}`\nlet history = global.get(`history${msg.fromTG.chatId}`) || [];\n\nmsg.payload = {\n    ...msg.fromTG,\n    content: responseChatGPT,\n    type: \"message\",\n}\n\nif (global.get('sent') == false) {\n    global.set('sent', true)\n\n    history.push({ \"role\": \"assistant\", \"content\": responseChatGPT });\n    global.set(`history${msg.fromTG.chatId}`, history);\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 460,
+        "wires": [
+            [
+                "046c4a967aada20e"
+            ]
+        ]
+    },
+    {
+        "id": "d78cd8f02d87047b",
+        "type": "debug",
+        "z": "62b22d6c64160367",
+        "g": "b7ace14a05e65449",
+        "name": "to GPT",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 920,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "254b786952413442",
+        "type": "debug",
+        "z": "62b22d6c64160367",
+        "g": "b7ace14a05e65449",
+        "name": "fromTG",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 320,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "01305e480cd5de32",
+        "type": "debug",
+        "z": "62b22d6c64160367",
+        "g": "b7ace14a05e65449",
+        "name": "from GPT",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1080,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "a1bf661ab9e10931",
+        "type": "function",
+        "z": "62b22d6c64160367",
+        "g": "b7ace14a05e65449",
+        "name": "get",
+        "func": "/*msg.fromTG = {\n    content: 'How working with UBOS?'\n}*/\n\nconst content = msg.fromTG.content.includes(`@${global.get('process_env').BOT_NAME}`) ? msg.fromTG.content.replace(`@${global.get('process_env').BOT_NAME}`, '') : msg.fromTG.content;\n\nconst { getADAEmbedding } = global.get(\"helpers\");\n\nasync function contextAgent(objective, topK) {\n    const queryEmbedding = await getADAEmbedding(objective);\n\n    try {\n        const results = await msg.main.index.query({\n            queryRequest: {\n                vector: queryEmbedding,\n                includeMetadata: true,\n                topK,\n            },\n        });\n\n\n        const sortedResults = results.matches?.sort((a, b) => (b?.score ?? 0) - (a?.score ?? 0)) ?? [];\n        return sortedResults.map(v => ({ id: v.id, question: v.metadata.question, answer: v.metadata.result}))\n    } catch (error) {\n        node.warn(error);\n    };\n}\n\nconst contextData = await contextAgent(content, 2);\n\nmsg.payload = contextData\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 460,
+        "wires": [
+            [
+                "cd9602935f9e7bd2"
+            ]
+        ],
+        "icon": "node-red/db.svg"
+    },
+    {
+        "id": "5030aaac8f677cc9",
+        "type": "function",
+        "z": "62b22d6c64160367",
+        "g": "0c99ebd1de06e6e6",
+        "name": "post",
+        "func": "const { getADAEmbedding } = global.get(\"helpers\");\n\nconst question = msg.fromApp.question\nconst result = msg.fromApp.result\nconst embeddingResult = await getADAEmbedding(question);\n\nawait msg.main.index.upsert({\n    upsertRequest: {\n        vectors: [\n            {\n                id: Date.now().toString(),\n                values: embeddingResult,\n                metadata: { question: question, result },\n            },\n        ],\n    },\n});\n\nreturn msg",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 140,
+        "wires": [
+            [
+                "222d1ccdb7d750e5"
+            ]
+        ]
+    },
+    {
+        "id": "9d1731fd31456647",
+        "type": "function",
+        "z": "62b22d6c64160367",
+        "g": "0c99ebd1de06e6e6",
+        "name": "get",
+        "func": "const { getADAEmbedding } = global.get(\"helpers\");\n\nasync function contextAgent(objective, topK) {\n    const queryEmbedding = await getADAEmbedding(objective);\n\n    try {\n        const results = await msg.main.index.query({\n            queryRequest: {\n                vector: queryEmbedding,\n                includeMetadata: true,\n                topK,\n            },\n        });\n\n\n        const sortedResults = results.matches?.sort((a, b) => (b?.score ?? 0) - (a?.score ?? 0)) ?? [];\n        return sortedResults.map(v => ({ id: v.id, question: v.metadata.question, answer: v.metadata.result}))\n    } catch (error) {\n        node.warn(error);\n    };\n}\n\nconst contextData = await contextAgent('pipecone', 100);\n\nmsg.payload = contextData\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 80,
+        "wires": [
+            [
+                "99ada44ca5f67dbd",
+                "fecfd3820b28a1d3"
+            ]
+        ]
+    },
+    {
+        "id": "dae2ef495246e18f",
+        "type": "http in",
+        "z": "62b22d6c64160367",
+        "g": "0c99ebd1de06e6e6",
+        "name": "",
+        "url": "/getVectors",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 140,
+        "y": 80,
+        "wires": [
+            [
+                "db25b033348eba5b"
+            ]
+        ]
+    },
+    {
+        "id": "17ef4b486ceefb20",
+        "type": "http in",
+        "z": "62b22d6c64160367",
+        "g": "0c99ebd1de06e6e6",
+        "name": "",
+        "url": "/createVector",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 150,
+        "y": 140,
+        "wires": [
+            [
+                "50d4b22eea87c187"
+            ]
+        ]
+    },
+    {
+        "id": "99ada44ca5f67dbd",
+        "type": "http response",
+        "z": "62b22d6c64160367",
+        "g": "0c99ebd1de06e6e6",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 590,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "222d1ccdb7d750e5",
+        "type": "http response",
+        "z": "62b22d6c64160367",
+        "g": "0c99ebd1de06e6e6",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 590,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "0347190cd7eaf49e",
+        "type": "function",
+        "z": "62b22d6c64160367",
+        "g": "0c99ebd1de06e6e6",
+        "name": "update",
+        "func": "const { getADAEmbedding } = global.get(\"helpers\");\n\nconst question = msg.fromApp.question\nconst result = msg.fromApp.result\nconst id = msg.fromApp.id\nconst embeddingResult = await getADAEmbedding(question);\n\nmsg.payload = await msg.main.index.upsert({\n    upsertRequest: {\n        vectors: [\n            {\n                id: id,\n                values: embeddingResult,\n                metadata: { question: question, result },\n            },\n        ],\n    },\n});\n\nreturn msg ",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 200,
+        "wires": [
+            [
+                "671e6abe5da7d3c5"
+            ]
+        ]
+    },
+    {
+        "id": "baba7c3ff96ad1ac",
+        "type": "http in",
+        "z": "62b22d6c64160367",
+        "g": "0c99ebd1de06e6e6",
+        "name": "",
+        "url": "/updateVector",
+        "method": "put",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 150,
+        "y": 200,
+        "wires": [
+            [
+                "f95ef6e5ddd369d3"
+            ]
+        ]
+    },
+    {
+        "id": "671e6abe5da7d3c5",
+        "type": "http response",
+        "z": "62b22d6c64160367",
+        "g": "0c99ebd1de06e6e6",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 590,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "4da3d1084865862f",
+        "type": "function",
+        "z": "62b22d6c64160367",
+        "g": "358625d2fca13e88",
+        "name": "get",
+        "func": "const historyKey = global.keys().filter(e=> e.includes('history'))\n\nconst history = historyKey.map(key=> {\n    const value = global.get(key)\n    return {\n        [key.replace('history', '')]: value\n    }\n})\n\nmsg.payload = {\n    success: true,\n    payload: {\n        historyLength: history.length\n    }\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1050,
+        "y": 80,
+        "wires": [
+            [
+                "eaff589e72bcdafc"
+            ]
+        ]
+    },
+    {
+        "id": "d6395fb4748d1ebc",
+        "type": "http in",
+        "z": "62b22d6c64160367",
+        "g": "358625d2fca13e88",
+        "name": "",
+        "url": "/getHistory",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 880,
+        "y": 80,
+        "wires": [
+            [
+                "4da3d1084865862f"
+            ]
+        ]
+    },
+    {
+        "id": "eaff589e72bcdafc",
+        "type": "http response",
+        "z": "62b22d6c64160367",
+        "g": "358625d2fca13e88",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 1190,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "3003b7b6b8c27e44",
+        "type": "inject",
+        "z": "62b22d6c64160367",
+        "g": "358625d2fca13e88",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "3600",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 890,
+        "y": 140,
+        "wires": [
+            [
+                "2aecefea8e7b8ef1"
+            ]
+        ]
+    },
+    {
+        "id": "2aecefea8e7b8ef1",
+        "type": "function",
+        "z": "62b22d6c64160367",
+        "g": "358625d2fca13e88",
+        "name": "save histrory",
+        "func": "const historyKey = global.keys().filter(e=> e.includes('history'))\n\nconst history = historyKey.map(key=> {\n    const value = global.get(key)\n    return {\n        [key.replace('history', '')]: value\n    }\n})\n\nmsg.payload = history\nmsg.filename = '/data/history.json'\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1090,
+        "y": 140,
+        "wires": [
+            [
+                "e6590abc5860c593"
+            ]
+        ]
+    },
+    {
+        "id": "6e2ed4604324edd6",
+        "type": "file",
+        "z": "62b22d6c64160367",
+        "g": "358625d2fca13e88",
+        "name": "",
+        "filename": "filename",
+        "filenameType": "msg",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 1420,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e6590abc5860c593",
+        "type": "json",
+        "z": "62b22d6c64160367",
+        "g": "358625d2fca13e88",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 1270,
+        "y": 140,
+        "wires": [
+            [
+                "6e2ed4604324edd6"
+            ]
+        ]
+    },
+    {
+        "id": "db25b033348eba5b",
+        "type": "subflow:9e67e3c2dd241798",
+        "z": "62b22d6c64160367",
+        "g": "0c99ebd1de06e6e6",
+        "name": "",
+        "x": 330,
+        "y": 80,
+        "wires": [
+            [
+                "9d1731fd31456647"
+            ]
+        ]
+    },
+    {
+        "id": "50d4b22eea87c187",
+        "type": "subflow:9e67e3c2dd241798",
+        "z": "62b22d6c64160367",
+        "g": "0c99ebd1de06e6e6",
+        "name": "",
+        "x": 330,
+        "y": 140,
+        "wires": [
+            [
+                "5030aaac8f677cc9"
+            ]
+        ]
+    },
+    {
+        "id": "f95ef6e5ddd369d3",
+        "type": "subflow:9e67e3c2dd241798",
+        "z": "62b22d6c64160367",
+        "g": "0c99ebd1de06e6e6",
+        "name": "",
+        "x": 330,
+        "y": 200,
+        "wires": [
+            [
+                "0347190cd7eaf49e"
+            ]
+        ]
+    },
+    {
+        "id": "73bb646e3c360d1e",
+        "type": "subflow:9e67e3c2dd241798",
+        "z": "62b22d6c64160367",
+        "g": "b7ace14a05e65449",
+        "name": "",
+        "x": 490,
+        "y": 460,
+        "wires": [
+            [
+                "a1bf661ab9e10931"
+            ]
+        ]
+    },
+    {
+        "id": "96b567d6e24712f3",
+        "type": "function",
+        "z": "62b22d6c64160367",
+        "name": "check count",
+        "func": "// ця функція дозволяє встановлювати ліміти повідомлень на годину для 4-тої моделі\n// в даному акаунті поки не використовуєтся\nlet receivedMessages = global.get(\"receivedMessages\") || [];\nconst limit = global.get('process_env').LIMIT ?? 1000\n\nfunction checkMessages() {\n    const now = Date.now();\n    receivedMessages = receivedMessages.filter(t => now - t <= 3600000);\n    if(receivedMessages.length <= +limit){\n        receivedMessages.push(now);\n    }\n}\n\ncheckMessages();\nglobal.set('receivedMessages', receivedMessages);\n\nif (receivedMessages.length > +limit) {\n    msg.payload.content = '';\n    return [msg, null];\n} else {\n    return [null, msg];\n}",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1570,
+        "y": 60,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "263d5f2914e76918",
+        "type": "function",
+        "z": "62b22d6c64160367",
+        "g": "0c99ebd1de06e6e6",
+        "name": "delete",
+        "func": "const { getADAEmbedding } = global.get(\"helpers\");\n\nconst question = msg.fromApp.question\nconst result = msg.fromApp.result\nconst id = msg.req.query.id\n\nconst embeddingResult = await getADAEmbedding(question);\n\nawait msg.main.index.delete({\n    deleteRequest: {\n        ids: ['1682701286541'], \n    },\n});\n\nreturn msg ",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 260,
+        "wires": [
+            [
+                "876c0ea44c43c322"
+            ]
+        ]
+    },
+    {
+        "id": "65e4dd51728104ee",
+        "type": "http in",
+        "z": "62b22d6c64160367",
+        "g": "0c99ebd1de06e6e6",
+        "name": "",
+        "url": "/deleteVector",
+        "method": "delete",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 160,
+        "y": 260,
+        "wires": [
+            [
+                "f01b195ed85e7a14"
+            ]
+        ]
+    },
+    {
+        "id": "876c0ea44c43c322",
+        "type": "http response",
+        "z": "62b22d6c64160367",
+        "g": "0c99ebd1de06e6e6",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 590,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "f01b195ed85e7a14",
+        "type": "subflow:9e67e3c2dd241798",
+        "z": "62b22d6c64160367",
+        "g": "0c99ebd1de06e6e6",
+        "name": "",
+        "x": 330,
+        "y": 260,
+        "wires": [
+            [
+                "263d5f2914e76918"
+            ]
+        ]
+    },
+    {
+        "id": "fecfd3820b28a1d3",
+        "type": "debug",
+        "z": "62b22d6c64160367",
+        "g": "0c99ebd1de06e6e6",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 600,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "cbc516abbc952514",
+        "type": "function",
+        "z": "62b22d6c64160367",
+        "name": "initial",
+        "func": "msg.fromApp = msg.payload\nmsg.fromTG = msg.payload\n\nconst { Configuration, OpenAIApi } = openai;\nconst { PineconeClient } = pineconeBD;\nconst { CreateIndexRequest } = pineconeDBPFetch;\n\nconst process_env = global.get(\"process_env\")\nconst OPENAI_API_KEY = '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'\nconst PINECONE_API_KEY = '7aac3998-5dea-424e-9b07-ca6f07cfd431'\nconst PINECONE_ENVIRONMENT = 'us-west4-gcp'\n\nglobal.set(\"TABLE_NAME\", \"test\");\nglobal.set(\"tasks_storage\", []);\nglobal.set(\"results_storage\", []);\nglobal.set(\"taskId\", 0);\n\n// ============================\n\nconst configuration = new Configuration({\n    apiKey: OPENAI_API_KEY,\n});\nconst openAI = new OpenAIApi(configuration);\n\nconst pinecone = new PineconeClient();\nawait pinecone.init({\n    apiKey: PINECONE_API_KEY,\n    environment: PINECONE_ENVIRONMENT,\n});\n\nconst indexList = await pinecone.listIndexes();\nlet index = pinecone.Index(global.get(\"TABLE_NAME\"));\n\nlet embeddingList = new Map();\nglobal.set(\"embeddingList\", embeddingList);\n\nmsg.main = { indexList, openAI, pinecone, index };\nnode.warn(pinecone)\n\nasync function getADAEmbedding(text) {\n\n    const embeddingList = global.get(\"embeddingList\");\n\n    if (embeddingList.has(text)) {\n        return embeddingList.get(text);\n    }\n\n    const embedding = (\n        await openAI.createEmbedding({\n            input: [text],\n            model: \"text-embedding-ada-002\",\n        })\n    ).data?.data[0].embedding;\n\n    embeddingList.set(text, embedding);\n\n    return embedding;\n}\n\nglobal.set(\"helpers\", {\n    getADAEmbedding\n});\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "openai",
+                "module": "openai"
+            },
+            {
+                "var": "pineconeBD",
+                "module": "@pinecone-database/pinecone"
+            },
+            {
+                "var": "pineconeDBPFetch",
+                "module": "@pinecone-database/pinecone/dist/pinecone-generated-ts-fetch"
+            }
+        ],
+        "x": 310,
+        "y": 620,
+        "wires": [
+            [
+                "b09b4f43b5dec835"
+            ]
+        ]
+    },
+    {
+        "id": "0cd3eeebe7a15a4a",
+        "type": "inject",
+        "z": "62b22d6c64160367",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 620,
+        "wires": [
+            [
+                "cbc516abbc952514"
+            ]
+        ]
+    },
+    {
+        "id": "91815a6a3ae7648b",
+        "type": "debug",
+        "z": "62b22d6c64160367",
+        "name": "fromTG",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 620,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "b09b4f43b5dec835",
+        "type": "function",
+        "z": "62b22d6c64160367",
+        "name": "get",
+        "func": "const { getADAEmbedding } = global.get(\"helpers\");\n\nasync function contextAgent(objective, topK) {\n    const queryEmbedding = await getADAEmbedding(objective);\n\n    try {\n        const results = await msg.main.index.query({\n            queryRequest: {\n                vector: queryEmbedding,\n                includeMetadata: true,\n                topK,\n            },\n        });\n\n\n        const sortedResults = results.matches?.sort((a, b) => (b?.score ?? 0) - (a?.score ?? 0)) ?? [];\n        return sortedResults.map(v => ({ id: v.id, question: v.metadata.question, answer: v.metadata.result}))\n    } catch (error) {\n        node.warn(error);\n    };\n}\n\nconst contextData = await contextAgent('pipecone', 100);\n\nmsg.payload = contextData\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 620,
+        "wires": [
+            [
+                "91815a6a3ae7648b"
+            ]
+        ]
+    },
+    {
+        "id": "77180feaff4d5130",
+        "type": "inject",
+        "z": "244f57418099357e",
+        "g": "799b2714689c52e7",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 100,
+        "wires": [
+            [
+                "152abbb1a32b6e9a"
+            ]
+        ]
+    },
+    {
+        "id": "8d63d1f942513785",
+        "type": "function",
+        "z": "244f57418099357e",
+        "g": "799b2714689c52e7",
+        "name": "ENV",
+        "func": "const data = msg.payload\n\nlet process_env = {\n    BOT_NAME: data.bot_name,\n    BOT_TOKEN: data.bot_token,\n    OPENAI_API: data.openai_api,\n    PIPECONE_API: data.pipecone_api,\n    PIPECONE_ENV: data.pipecone_env,\n    PIPECONE_INDEX: data.pipecone_index,\n}\n\nglobal.set(\"process_env\", process_env)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e40e28f78177c084",
+        "type": "complete",
+        "z": "244f57418099357e",
+        "g": "799b2714689c52e7",
+        "name": "",
+        "scope": [
+            "4fbea48f5fcac951"
+        ],
+        "uncaught": false,
+        "x": 130,
+        "y": 60,
+        "wires": [
+            [
+                "152abbb1a32b6e9a"
+            ]
+        ]
+    },
+    {
+        "id": "152abbb1a32b6e9a",
+        "type": "function",
+        "z": "244f57418099357e",
+        "g": "799b2714689c52e7",
+        "name": "getEnvs",
+        "func": "msg.filename = '/data/credentials.json'\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 80,
+        "wires": [
+            [
+                "a71380698545bfba"
+            ]
+        ]
+    },
+    {
+        "id": "a71380698545bfba",
+        "type": "file in",
+        "z": "244f57418099357e",
+        "g": "799b2714689c52e7",
+        "name": "",
+        "filename": "filename",
+        "filenameType": "msg",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 480,
+        "y": 80,
+        "wires": [
+            [
+                "cccf876a7687d60e"
+            ]
+        ]
+    },
+    {
+        "id": "cccf876a7687d60e",
+        "type": "json",
+        "z": "244f57418099357e",
+        "g": "799b2714689c52e7",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 565,
+        "y": 80,
+        "wires": [
+            [
+                "8d63d1f942513785"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "71ccf33bbbf63800",
+        "type": "complete",
+        "z": "244f57418099357e",
+        "g": "799b2714689c52e7",
+        "name": "",
+        "scope": [
+            "09a0b63bfe2f9446"
+        ],
+        "uncaught": false,
+        "x": 130,
+        "y": 140,
+        "wires": [
+            [
+                "7d074ce8d581dc21"
+            ]
+        ]
+    },
+    {
+        "id": "20587a1a488be3fa",
+        "type": "inject",
+        "z": "244f57418099357e",
+        "g": "799b2714689c52e7",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 180,
+        "wires": [
+            [
+                "7d074ce8d581dc21"
+            ]
+        ]
+    },
+    {
+        "id": "7d074ce8d581dc21",
+        "type": "function",
+        "z": "244f57418099357e",
+        "g": "799b2714689c52e7",
+        "name": "getContent",
+        "func": "msg.filename = '/data/content.json'\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 160,
+        "wires": [
+            [
+                "cfca5f7ee9f39ce2"
+            ]
+        ]
+    },
+    {
+        "id": "cfca5f7ee9f39ce2",
+        "type": "file in",
+        "z": "244f57418099357e",
+        "g": "799b2714689c52e7",
+        "name": "",
+        "filename": "filename",
+        "filenameType": "msg",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 480,
+        "y": 160,
+        "wires": [
+            [
+                "60d9ccd74b3d5f01"
+            ]
+        ]
+    },
+    {
+        "id": "60d9ccd74b3d5f01",
+        "type": "json",
+        "z": "244f57418099357e",
+        "g": "799b2714689c52e7",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 565,
+        "y": 160,
+        "wires": [
+            [
+                "0861f8ee76b43a91"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "0861f8ee76b43a91",
+        "type": "function",
+        "z": "244f57418099357e",
+        "g": "799b2714689c52e7",
+        "name": "ENV",
+        "func": "const data = msg.payload\nconst filterHtmlTags = (text) => {\n    // Remove all HTML tags except for <br> and <br/>\n    const filteredText = text.replace(/<(?!br\\s*\\/?)[^>]+>/gi, '');\n    // Replace <br> and <br/> tags with newline characters\n    return filteredText.replace(/<br\\s*\\/?>/gi, '\\n');\n}\n\n\ndata.welcomeMessage = filterHtmlTags(data.welcomeMessage)\nlet content = {\n    WELCOME_MSG: data.welcomeMessage,\n    INSTRUCTIONS: data.insturctions\n}\n\nglobal.set(\"content\", content)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "876ca2a327bbf742",
+        "type": "http in",
+        "z": "244f57418099357e",
+        "g": "17965c4b9f2a83c3",
+        "name": "",
+        "url": "/saveCredentials",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 160,
+        "y": 280,
+        "wires": [
+            [
+                "1597a5bfc8b290dd"
+            ]
+        ]
+    },
+    {
+        "id": "4fbea48f5fcac951",
+        "type": "http response",
+        "z": "244f57418099357e",
+        "g": "17965c4b9f2a83c3",
+        "name": "saveCredentials",
+        "statusCode": "",
+        "headers": {},
+        "x": 940,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "1597a5bfc8b290dd",
+        "type": "function",
+        "z": "244f57418099357e",
+        "g": "17965c4b9f2a83c3",
+        "name": "set filename",
+        "func": "msg.filename = '/data/credentials.json'\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 280,
+        "wires": [
+            [
+                "10eac66d955f5767"
+            ]
+        ]
+    },
+    {
+        "id": "cab0a4cf864ec59a",
+        "type": "file",
+        "z": "244f57418099357e",
+        "g": "17965c4b9f2a83c3",
+        "name": "",
+        "filename": "filename",
+        "filenameType": "msg",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 640,
+        "y": 280,
+        "wires": [
+            [
+                "682fd7e93e8fc114"
+            ]
+        ]
+    },
+    {
+        "id": "682fd7e93e8fc114",
+        "type": "function",
+        "z": "244f57418099357e",
+        "g": "17965c4b9f2a83c3",
+        "name": "return res",
+        "func": "msg.payload={\n    success: true,\n    payload: \"Success!\"\n}\nmsg.statusCode = 200\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 780,
+        "y": 280,
+        "wires": [
+            [
+                "4fbea48f5fcac951"
+            ]
+        ]
+    },
+    {
+        "id": "d3eed86c91985361",
+        "type": "http in",
+        "z": "244f57418099357e",
+        "g": "17965c4b9f2a83c3",
+        "name": "",
+        "url": "/saveContent",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 150,
+        "y": 360,
+        "wires": [
+            [
+                "f40ecfa286fb73f8"
+            ]
+        ]
+    },
+    {
+        "id": "09a0b63bfe2f9446",
+        "type": "http response",
+        "z": "244f57418099357e",
+        "g": "17965c4b9f2a83c3",
+        "name": "saveContent",
+        "statusCode": "",
+        "headers": {},
+        "x": 950,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "e1e8004ec44efff9",
+        "type": "file",
+        "z": "244f57418099357e",
+        "g": "17965c4b9f2a83c3",
+        "name": "",
+        "filename": "filename",
+        "filenameType": "msg",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 640,
+        "y": 360,
+        "wires": [
+            [
+                "6b282a5cf59047e7"
+            ]
+        ]
+    },
+    {
+        "id": "6b282a5cf59047e7",
+        "type": "function",
+        "z": "244f57418099357e",
+        "g": "17965c4b9f2a83c3",
+        "name": "return res",
+        "func": "msg.payload={\n    success: true,\n    payload: \"Success!\"\n}\nmsg.statusCode = 200\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 360,
+        "wires": [
+            [
+                "09a0b63bfe2f9446"
+            ]
+        ]
+    },
+    {
+        "id": "10eac66d955f5767",
+        "type": "json",
+        "z": "244f57418099357e",
+        "g": "17965c4b9f2a83c3",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 510,
+        "y": 280,
+        "wires": [
+            [
+                "cab0a4cf864ec59a"
+            ]
+        ]
+    },
+    {
+        "id": "1105a126875d3f23",
+        "type": "file in",
+        "z": "244f57418099357e",
+        "g": "17965c4b9f2a83c3",
+        "name": "",
+        "filename": "filename",
+        "filenameType": "msg",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 520,
+        "y": 440,
+        "wires": [
+            [
+                "7b7a917b5834de34"
+            ]
+        ]
+    },
+    {
+        "id": "7b7a917b5834de34",
+        "type": "json",
+        "z": "244f57418099357e",
+        "g": "17965c4b9f2a83c3",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 650,
+        "y": 440,
+        "wires": [
+            [
+                "305cfab9683c882d"
+            ]
+        ]
+    },
+    {
+        "id": "2ae4172c5dd7168e",
+        "type": "http in",
+        "z": "244f57418099357e",
+        "g": "17965c4b9f2a83c3",
+        "name": "",
+        "url": "/getCredentials",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 150,
+        "y": 440,
+        "wires": [
+            [
+                "1659225c58a2b8ab"
+            ]
+        ]
+    },
+    {
+        "id": "50d817cb7369edd3",
+        "type": "http response",
+        "z": "244f57418099357e",
+        "g": "17965c4b9f2a83c3",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 930,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "305cfab9683c882d",
+        "type": "function",
+        "z": "244f57418099357e",
+        "g": "17965c4b9f2a83c3",
+        "name": "return res",
+        "func": "msg.statusCode = 200\nglobal.set('isCredentialsSent', true)\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 440,
+        "wires": [
+            [
+                "50d817cb7369edd3"
+            ]
+        ]
+    },
+    {
+        "id": "1659225c58a2b8ab",
+        "type": "function",
+        "z": "244f57418099357e",
+        "g": "17965c4b9f2a83c3",
+        "name": "set filename",
+        "func": "msg.filename = '/data/credentials.json'\nglobal.set('isCredentialsSent', false)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 440,
+        "wires": [
+            [
+                "1105a126875d3f23",
+                "e849e62835a29646"
+            ]
+        ]
+    },
+    {
+        "id": "f40ecfa286fb73f8",
+        "type": "function",
+        "z": "244f57418099357e",
+        "g": "17965c4b9f2a83c3",
+        "name": "set filename",
+        "func": "msg.filename = '/data/content.json'\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 360,
+        "wires": [
+            [
+                "ff109eead4511781"
+            ]
+        ]
+    },
+    {
+        "id": "ff109eead4511781",
+        "type": "json",
+        "z": "244f57418099357e",
+        "g": "17965c4b9f2a83c3",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 510,
+        "y": 360,
+        "wires": [
+            [
+                "e1e8004ec44efff9"
+            ]
+        ]
+    },
+    {
+        "id": "df2a1ab13eaea41e",
+        "type": "file in",
+        "z": "244f57418099357e",
+        "g": "17965c4b9f2a83c3",
+        "name": "",
+        "filename": "filename",
+        "filenameType": "msg",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 520,
+        "y": 520,
+        "wires": [
+            [
+                "753af792a60ccefd"
+            ]
+        ]
+    },
+    {
+        "id": "753af792a60ccefd",
+        "type": "json",
+        "z": "244f57418099357e",
+        "g": "17965c4b9f2a83c3",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 650,
+        "y": 520,
+        "wires": [
+            [
+                "4f37e869cdf617e0"
+            ]
+        ]
+    },
+    {
+        "id": "a4e2566ba24aa781",
+        "type": "http in",
+        "z": "244f57418099357e",
+        "g": "17965c4b9f2a83c3",
+        "name": "",
+        "url": "/getContent",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 140,
+        "y": 520,
+        "wires": [
+            [
+                "39029260de6af61e"
+            ]
+        ]
+    },
+    {
+        "id": "275457d43ea42730",
+        "type": "http response",
+        "z": "244f57418099357e",
+        "g": "17965c4b9f2a83c3",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 930,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "4f37e869cdf617e0",
+        "type": "function",
+        "z": "244f57418099357e",
+        "g": "17965c4b9f2a83c3",
+        "name": "return res",
+        "func": "msg.statusCode = 200\nglobal.set('isContentSent', true)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 520,
+        "wires": [
+            [
+                "275457d43ea42730"
+            ]
+        ]
+    },
+    {
+        "id": "39029260de6af61e",
+        "type": "function",
+        "z": "244f57418099357e",
+        "g": "17965c4b9f2a83c3",
+        "name": "set filename",
+        "func": "msg.filename = '/data/content.json'\nglobal.set('isContentSent', false)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 520,
+        "wires": [
+            [
+                "df2a1ab13eaea41e",
+                "1935934b4e85e6d0"
+            ]
+        ]
+    },
+    {
+        "id": "c9ef96841114bd54",
+        "type": "function",
+        "z": "244f57418099357e",
+        "g": "17965c4b9f2a83c3",
+        "name": "default data",
+        "func": "if (global.get('isContentSent') === false) {\nmsg.payload={\n    welcomeMessage: \n`Hello! Welcome to our store.\nWe're excited to help you find the perfect product for your needs.\nHow we can help you?`,\n    insturctions: \n`You are an assistant in an E-commerce store that sells fashion accessories.\n\nCustomers could ask you questions about product information, order status, shipping, and returns.\n\nHere's an example:\n\nQuestion: \"What's the material of the green scarf with flowers on your website?\"\nAnswer: \"The green scarf with flowers on our website is made of 100% silk.\"\n\nQuestion: \"Where's my order?\"\nAnswer: \"To check the status of your order, please log in to your account on our website and go to the 'Orders' section. You should see the status of your order there.\"\n\nQuestion: \"How long does it take to receive my order?\"\nAnswer: \"The delivery time depends on your location and the shipping method you choose at checkout. Please refer to our Shipping and Delivery page on our website for more information.\"\n\nQuestion: \"What's your return policy?\"\nAnswer: \"We offer free returns within 30 days of purchase. Please log in to your account and go to the 'Returns' section to initiate a return.\n`\n}\n\nglobal.set('isContentSent', true)\nreturn msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 560,
+        "wires": [
+            [
+                "4f37e869cdf617e0"
+            ]
+        ]
+    },
+    {
+        "id": "1935934b4e85e6d0",
+        "type": "delay",
+        "z": "244f57418099357e",
+        "g": "17965c4b9f2a83c3",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "3",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 495,
+        "y": 560,
+        "wires": [
+            [
+                "c9ef96841114bd54"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "e8932bcdc24b40b4",
+        "type": "function",
+        "z": "244f57418099357e",
+        "g": "17965c4b9f2a83c3",
+        "name": "default data",
+        "func": "if (global.get('isCredentialsSent') === false){\n    msg.payload = {\n        \"bot_name\": '',\n        \"bot_token\": '',\n        \"openai_api\": '',\n        \"pipecone_api\": '',\n        \"pipecone_env\": '',\n        \"pipecone_index\": '',\n        //\"is_limit\": true,\n        //\"limit\": 30\n    }\n    global.set('isCredentialsSent', true)\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 480,
+        "wires": [
+            [
+                "305cfab9683c882d"
+            ]
+        ]
+    },
+    {
+        "id": "e849e62835a29646",
+        "type": "delay",
+        "z": "244f57418099357e",
+        "g": "17965c4b9f2a83c3",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "3",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 495,
+        "y": 480,
+        "wires": [
+            [
+                "e8932bcdc24b40b4"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "71c998ce734f0f5a",
+        "type": "function",
+        "z": "244f57418099357e",
+        "g": "8a7cfdf064b038c2",
+        "name": "to ChatGPT",
+        "func": "//set variables\nconst api_key = global.get('process_env').OPENAI_API;\n\nconst content = msg.fromApp.content;\nconst answer = msg.payload.length > 1 ? `${msg.payload[0].answer}\\n ${msg.payload[1].answer}` : msg.payload[0].answer\nlet historyForGPT = global.get(`historyDemo`) || [];\n\n//ChatGPT properties\nmsg.url = 'https://api.openai.com/v1/chat/completions';\nmsg.headers = {\n    'Content-Type': 'application/json',\n    'Authorization': `Bearer ${api_key}`\n};\n\nconst historyDemo = global.get('historyDemo') ?? ['']\n\nglobal.set(`historyDemo`, [...historyDemo, { \"role\": \"user\", \"content\": content }]);\n\n\nmsg.payload = {\n    \"model\": \"gpt-3.5-turbo\",\n    \"messages\": [\n        { \"role\": \"system\", \"content\": `You are clever and cute support bot in IT company UBOS. Please, give answer to the user question as support bot based on the next information: ${answer}` },\n        { \"role\": \"user\", \"content\": content }\n    ]\n}\n\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 740,
+        "wires": [
+            [
+                "c09c22fe123e75df"
+            ]
+        ]
+    },
+    {
+        "id": "c09c22fe123e75df",
+        "type": "http request",
+        "z": "244f57418099357e",
+        "g": "8a7cfdf064b038c2",
+        "name": "ChatGPT",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 860,
+        "y": 740,
+        "wires": [
+            [
+                "da1f9c67b7e5ebad"
+            ]
+        ]
+    },
+    {
+        "id": "da1f9c67b7e5ebad",
+        "type": "function",
+        "z": "244f57418099357e",
+        "g": "8a7cfdf064b038c2",
+        "name": "send to user from chat",
+        "func": "const responseChatGPT = msg.payload.choices[0].message.content;\nconst history = global.get(`historyDemo`) || [];\nhistory.push({ \"role\": \"assistant\", \"content\": responseChatGPT })\nglobal.set(`historyDemo`, history);\n\n\nhistory[0] = {\n    role: 'user',\n    content: '/start'\n}\n\nconst conversation = history.map(e => ({ content: e.content.replace(/\\n/g, '')}));\nmsg.payload = conversation\n\n\n\n\n/*\nmsg.payload = history.map(e => {\n    if (e.role == 'user') {\n        return `User: ${e.content}`\n    } else {\n        return `AI: ${e.content}`\n    }\n}).join('\\n\\n')*/\n\n\n//const history = history.concat({\"text\": responseChatGPT });\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1040,
+        "y": 740,
+        "wires": [
+            [
+                "9b6f914c73aa4ccd"
+            ]
+        ]
+    },
+    {
+        "id": "69dde419548f29fd",
+        "type": "http in",
+        "z": "244f57418099357e",
+        "g": "8a7cfdf064b038c2",
+        "name": "",
+        "url": "/demo",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 130,
+        "y": 700,
+        "wires": [
+            [
+                "3cba732b968ed1c9"
+            ]
+        ]
+    },
+    {
+        "id": "9b6f914c73aa4ccd",
+        "type": "http response",
+        "z": "244f57418099357e",
+        "g": "8a7cfdf064b038c2",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 1190,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "3cba732b968ed1c9",
+        "type": "function",
+        "z": "244f57418099357e",
+        "g": "8a7cfdf064b038c2",
+        "name": "check command",
+        "func": "if (msg.payload.content.includes('/start')){\n    return [msg, null]\n}else{\n    return [null, msg]\n}",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 700,
+        "wires": [
+            [
+                "76f1ed83e535349c"
+            ],
+            [
+                "3f7430100fa126f5"
+            ]
+        ]
+    },
+    {
+        "id": "76f1ed83e535349c",
+        "type": "function",
+        "z": "244f57418099357e",
+        "g": "8a7cfdf064b038c2",
+        "name": "/start",
+        "func": "msg.payload = [{ content: '/start' }, { content: global.get('content').WELCOME_MSG}]\n\nglobal.set(`historyDemo`, [{ role: 'system', content: `${global.get('content').INSTRUCTIONS}` }, { role: 'assistant', content: `${global.get('content').WELCOME_MSG}`}])\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 660,
+        "wires": [
+            [
+                "9b6f914c73aa4ccd"
+            ]
+        ]
+    },
+    {
+        "id": "70747554f572630f",
+        "type": "function",
+        "z": "244f57418099357e",
+        "g": "8a7cfdf064b038c2",
+        "name": "get",
+        "func": "/*msg.fromTG = {\n    content: 'How working with UBOS?'\n}*/\n\nconst content = msg.fromTG.content.includes(`@${global.get('process_env').BOT_NAME}`) ? msg.fromTG.content.replace(`@${global.get('process_env').BOT_NAME}`, '') : msg.fromTG.content;\n\nconst { getADAEmbedding } = global.get(\"helpers\");\n\nasync function contextAgent(objective, topK) {\n    const queryEmbedding = await getADAEmbedding(objective);\n\n    try {\n        const results = await msg.main.index.query({\n            queryRequest: {\n                vector: queryEmbedding,\n                includeMetadata: true,\n                topK,\n            },\n        });\n\n\n        const sortedResults = results.matches?.sort((a, b) => (b?.score ?? 0) - (a?.score ?? 0)) ?? [];\n        return sortedResults.map(v => ({ id: v.id, question: v.metadata.question, answer: v.metadata.result}))\n    } catch (error) {\n        node.warn(error);\n    };\n}\n\nconst contextData = await contextAgent(content, 2);\n\nmsg.payload = contextData\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 740,
+        "wires": [
+            [
+                "71c998ce734f0f5a"
+            ]
+        ],
+        "icon": "node-red/db.svg"
+    },
+    {
+        "id": "3f7430100fa126f5",
+        "type": "subflow:9e67e3c2dd241798",
+        "z": "244f57418099357e",
+        "g": "8a7cfdf064b038c2",
+        "name": "",
+        "x": 450,
+        "y": 740,
+        "wires": [
+            [
+                "70747554f572630f"
+            ]
+        ]
+    }
+]
