@@ -15,4 +15,4 @@ AI support bot
 
 This Telegram bot is based on artificial intelligence and helps provide customer support. It can be quickly configured in the UBOS admin panel using the "Settings" and "Content" pages. The bot is capable of answering user questions and providing information about your business, relying on the provided information. In addition, the user can specify certain guidelines for responses in a particular mode, such as "fun and witty administrator", depending on their preferences.
 
-Check this video demo of the tool in action: <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=rkc5tKsmDlo&ab_channel=UBOS%3ANo-codeplatformforAIapps">link to YouTube video</a></b>
+Check this video demo of the tool in action: <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/8XNy3P0zY5w">link to YouTube video</a></b>
